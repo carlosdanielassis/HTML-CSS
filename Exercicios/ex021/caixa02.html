@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        header{
+            background-color: aqua;
+            border: 4px solid white;
+            text-align: center;
+            margin: 10px 1px 25px 1px;
+            border-radius: 9px;
+
+        }
+        nav{
+            background-color: black;
+            padding: 2px;
+            margin: 7px;
+            border: 2px solid white;
+            box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.377);
+            border-radius: 20px 20px 3px 3px;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        nav > a {
+            color: white;
+           padding: 20px;
+           text-decoration: none;
+        }
+        main{
+            background-color: aqua;
+            border: 4px solid white;
+        }
+
+        section#noticias > article > h2 {
+            text-align: center;
+        }
+        section#noticias > article > h3 {
+            text-align: justify;
+            padding: 1px 1px 3px 15px;
+        }
+        section > article > p {
+            text-align: justify;
+            padding: 7px;
+            text-indent: 15px;
+        }
+        footer{
+            background-color: white;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin: 8px 0px;
+            border: 1px solid white;
+            
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: rgba(0, 255, 255, 0.651);
+            margin: 30px auto;
+            border-radius: 50%;
+            box-shadow: 10px 20px 30px rgba(0, 255, 255, 0.342);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do dias</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime eius placeat ipsum adipisci, dolore voluptatibus! Quia rerum quod laboriosam commodi iure. Repellat maiores esse voluptates dolor porro reiciendis velit fugiat.</p>
+                    <h3>Brasil</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, illum non, officiis optio alias labore quaerat aliquam ea, consequatur repellat repellendus consectetur qui doloribus incidunt possimus? Necessitatibus dolore odio aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium omnis ipsum dicta non, voluptate eligendi hic consequuntur, fugit dolore quam cupiditate quae nulla molestiae natus quidem, ab sit corporis autem.</p>
+                    <h3>Espanha</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quasi, beatae inventore rerum consectetur excepturi dolore consequuntur possimus a magnam quisquam sunt temporibus cumque aliquam necessitatibus assumenda sequi perferendis praesentium? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quos itaque magni ratione atque optio autem temporibus corrupti beatae! Officiis magnam cupiditate facilis nulla soluta fugiat laborum voluptate porro adipisci. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere tenetur inventore molestiae suscipit architecto sed voluptatem, consequuntur praesentium illum incidunt. Doloribus perferendis corporis possimus laudantium pariatur maxime saepe nostrum.
+                        </p>
+                    <h3>Argentina</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quam id et repellendus libero. Alias, ex deserunt numquam neque dolore corporis non, illo adipisci eveniet quas laborum. Enim, exercitationem soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dignissimos officiis minima recusandae eaque doloremque unde, explicabo sint, excepturi id quam natus quasi commodi eligendi in delectus iusto sunt!</p>
+                        <aside>
+                            Artigo  escrito por Gusstavo Guanabara
+                        </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Carlos Assis</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
